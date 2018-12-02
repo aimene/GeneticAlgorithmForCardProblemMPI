@@ -7,7 +7,7 @@
 #include"mpiExamples.h"
 
 int main(int argc, char * argv[])
-{
+{	
 	mpiexamples mpi{};
 	mpi.program2(argc, argv);
 }
