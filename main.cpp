@@ -9,7 +9,7 @@
 int main(int argc, char * argv[])
 {
 	mpiexamples mpi{};
-	mpi.program1(argc, argv);
+	mpi.program2(argc, argv);
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
