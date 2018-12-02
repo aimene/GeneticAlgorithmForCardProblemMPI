@@ -4,10 +4,13 @@
 #include "pch.h"
 #include <iostream>
 
-/*int main()
+#include"mpiExamples.h"
+
+int main(int argc, char * argv[])
 {
-    std::cout << "Hello World!\n"; 
-}*/
+	mpiexamples mpi{};
+	mpi.program1(argc, argv);
+}
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage
 // Déboguer le programme : F5 ou menu Déboguer > Démarrer le débogage

@@ -8,6 +8,7 @@
 
 #ifndef PCH_H
 #define PCH_H
+#include"mpiExamples.h"
 
 // TODO: Ajoutez les en-têtes à précompiler ici
 
