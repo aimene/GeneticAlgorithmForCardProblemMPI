@@ -136,7 +136,7 @@ void GeneticAlgorithmForCardProblemMPI::run(int argc, char * argv[])
 		//std::cout << " rank +iter % 20 " << my_rank << "  "<<iter % 20 << std::endl;
 
 		// send 2 best individuals to the next process and receive the 2 best process from the previous process
-		if (iter % 200 == 0) 
+		if (iter % 10 == 0) 
 		{
 			int num_proc_precedent = (num_procs + my_rank - 1) % num_procs;
 			int num_proc_suivant = (my_rank + 1) % num_procs;
