@@ -4,12 +4,18 @@
 #include "pch.h"
 #include <iostream>
 
-#include"mpiExamples.h"
-
+#include<ctime>
+#include"GeneticAlgorithmForCardProblemMPI.h"
 int main(int argc, char * argv[])
 {	
-	mpiexamples mpi{};
-	mpi.program2(argc, argv);
+	GeneticAlgorithmForCardProblemMPI mpi{};
+	srand((unsigned)time(nullptr));
+	//std::cout << mpi.random(0, 10) << std::endl;
+	mpi.run( argc,  argv);
+	
+	
+	
+	
 }
 
 // Exécuter le programme : Ctrl+F5 ou menu Déboguer > Exécuter sans débogage

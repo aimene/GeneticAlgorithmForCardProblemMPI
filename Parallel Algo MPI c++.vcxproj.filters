@@ -21,7 +21,7 @@
     <ClInclude Include="mpi.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="mpiExamples.h">
+    <ClInclude Include="GeneticAlgorithmForCardProblemMPI.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,7 +32,7 @@
     <ClCompile Include="main.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="mpiExamples.cpp">
+    <ClCompile Include="GeneticAlgorithmForCardProblemMPI.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
